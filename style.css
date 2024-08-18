@@ -1,0 +1,30 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div {
+    position: relative;
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: aquamarine;
+    text-align: center;
+}
+#avatar{
+    position: absolute;
+    top: -20px; /*Mueve el elemento hacia arriba desde el borde superior del contenedor.*/
+    left: -20px; /*Mueve el elemento hacia la izq desde el borde izquierdo  del contenedor.*/
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    
+}
+
+
